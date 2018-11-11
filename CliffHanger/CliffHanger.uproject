@@ -1,6 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{A7404969-44AE-3130-1729-6CA059BC874E}",
+	"EngineAssociation": "UnrealEngine_4.20",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CliffHanger",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
