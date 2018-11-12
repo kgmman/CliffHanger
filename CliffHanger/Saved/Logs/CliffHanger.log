@@ -1,4 +1,4 @@
-﻿Log file open, 11/12/18 00:16:45
+﻿Log file open, 11/12/18 23:52:00
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CliffHanger
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.470562
+LogStats: Stats thread started at 5.102389
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.223s to configure plugins.
+LogStreaming: Display: Took  0.379s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,452 +148,543 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.11-15.16.45:983][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.11-15.16.45:983][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.11-15.16.45:993][  0]LogHAL: Display: Platform has ~ 16 GB [17107058688 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.11-15.16.45:993][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.11-15.16.45:993][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.11-15.16.45:994][  0]LogInit: Computer: DESKTOP-0D5PGMK
-[2018.11.11-15.16.45:994][  0]LogInit: User: kgmma
-[2018.11.11-15.16.45:994][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.11-15.16.45:994][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2018.11.11-15.16.45:995][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.11.11-15.16.45:995][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.11-15.16.45:995][  0]LogMemory: Process Physical Memory: 104.31 MB used, 104.31 MB peak
-[2018.11.11-15.16.45:995][  0]LogMemory: Process Virtual Memory: 86.12 MB used, 86.12 MB peak
-[2018.11.11-15.16.45:995][  0]LogMemory: Physical Memory: 7875.33 MB used,  8439.23 MB free, 16314.56 MB total
-[2018.11.11-15.16.45:995][  0]LogMemory: Virtual Memory: 4640.80 MB used,  8439.23 MB free, 134217728.00 MB total
-[2018.11.11-15.16.46:113][  0]LogInit: Using OS detected language (ko-KR).
-[2018.11.11-15.16.46:113][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.11.11-15.16.46:114][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.11.11-15.16.46:537][  0]LogStreaming: Display: Took  0.424s to InitEngineTextLocalization.
-[2018.11.11-15.16.46:537][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.11-15.16.46:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.11-15.16.46:652][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.11-15.16.47:170][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.11-15.16.47:170][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.11-15.16.47:348][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.11.11-15.16.47:349][  0]LogD3D11RHI:       6052/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.11-15.16.47:360][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.11-15.16.47:360][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.11-15.16.47:361][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.11-15.16.47:372][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.11-15.16.47:372][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.11-15.16.47:372][  0]LogWindows: EnumDisplayDevices:
-[2018.11.11-15.16.47:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.11.11-15.16.47:375][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.11.11-15.16.47:378][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.11.11-15.16.47:380][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.11.11-15.16.47:382][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.11-15.16.47:382][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.11.11-15.16.47:382][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
-[2018.11.11-15.16.47:382][  0]LogD3D11RHI:      Driver Date: 9-25-2018
-[2018.11.11-15.16.47:383][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.11.11-15.16.47:465][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.11-15.16.47:494][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.11-15.16.47:500][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../../../CliffHanger/CliffHanger/Intermediate/Shaders/WorkingDirectory/1300/).
-[2018.11.11-15.16.47:500][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kgmma/AppData/Local/Temp/UnrealShaderWorkingDir/4CF76FA34DE269E3837E5D8143741203/'.
-[2018.11.11-15.16.47:930][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.11-15.16.47:957][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.11-15.16.47:985][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.11-15.16.48:016][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.11-15.16.48:048][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.11-15.16.48:074][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.11-15.16.48:103][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.11-15.16.48:133][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.11-15.16.48:153][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:257][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:259][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:259][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:259][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.11-15.16.48:269][  0]LogTemp: Display: HTML5 SDK path "E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Extras/ThirdPartyNotUE/emsdk/Win64", does not exist!
-[2018.11.11-15.16.48:269][  0]LogTemp: Display: HTML5 SDK path "E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Extras/ThirdPartyNotUE/emsdk/Win64", does not exist!
-[2018.11.11-15.16.48:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.11-15.16.48:379][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.11-15.16.48:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.11-15.16.48:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.11-15.16.48:433][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.11-15.16.48:433][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.11-15.16.48:770][  0]LogXGEController: Cleaning working directory: C:/Users/kgmma/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.11-15.16.48:770][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.11-15.16.48:771][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.11-15.16.48:771][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.11-15.16.49:631][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.11-15.16.49:728][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.11-15.16.49:729][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.11-15.16.49:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../CliffHanger/CliffHanger/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.11-15.16.49:729][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.11-15.16.49:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../CliffHanger/CliffHanger/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.11-15.16.49:730][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.11-15.16.49:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.11-15.16.49:730][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2018.11.11-15.16.49:750][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kgmma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.11-15.16.49:750][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.11-15.16.49:751][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.11-15.16.49:775][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.11-15.16.49:776][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.11-15.16.49:778][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.11-15.16.49:900][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
-[2018.11.11-15.16.50:303][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.11-15.16.50:594][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.11-15.16.50:595][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.11-15.16.50:595][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.11-15.16.50:595][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2018.11.11-15.16.50:595][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2018.11.11-15.16.50:621][  0]LogNetVersion: CliffHanger 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 205997986)
-[2018.11.11-15.16.51:366][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.156916 seconds
-[2018.11.11-15.16.51:374][  0]LogUObjectArray: 38381 objects as part of root set at end of initial load.
-[2018.11.11-15.16.51:374][  0]LogUObjectAllocator: 6683936 out of 0 bytes used by permanent object pool.
-[2018.11.11-15.16.51:374][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.11-15.16.52:234][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.11-15.16.52:234][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.11-15.16.52:235][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:235][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:235][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:235][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:235][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.11-15.16.52:235][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.11-15.16.52:236][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:236][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:236][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:236][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:236][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.11-15.16.52:237][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.11-15.16.52:237][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:237][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:237][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:237][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:237][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2018.11.11-15.16.52:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2018.11.11-15.16.52:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:238][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2018.11.11-15.16.52:238][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2018.11.11-15.16.52:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.11-15.16.52:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.11-15.16.52:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:239][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:239][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:240][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.11-15.16.52:240][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.11-15.16.52:240][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:240][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:240][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:241][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:241][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.11-15.16.52:241][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.11-15.16.52:241][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:241][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:241][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:241][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:242][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2018.11.11-15.16.52:242][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2018.11.11-15.16.52:242][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:242][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:242][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2018.11.11-15.16.52:242][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2018.11.11-15.16.52:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.11-15.16.52:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.11-15.16.52:244][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:244][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.11-15.16.52:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.11-15.16.52:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:245][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:245][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.11.11-15.16.52:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.11.11-15.16.52:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:246][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:246][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:247][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.11.11-15.16.52:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.11.11-15.16.52:247][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:248][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:248][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:248][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.11-15.16.52:248][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.11-15.16.52:248][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:248][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:249][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:249][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:249][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.11-15.16.52:249][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.11-15.16.52:249][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:249][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:250][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:250][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:250][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.11.11-15.16.52:250][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.11.11-15.16.52:250][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:250][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:251][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:251][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:251][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.11.11-15.16.52:251][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.11.11-15.16.52:251][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:251][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:252][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:252][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:252][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.11.11-15.16.52:252][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.11.11-15.16.52:252][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:253][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:253][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.11-15.16.52:253][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.11-15.16.52:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2018.11.11-15.16.52:254][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2018.11.11-15.16.52:254][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2018.11.11-15.16.52:255][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2018.11.11-15.16.52:255][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2018.11.11-15.16.52:256][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2018.11.11-15.16.52:256][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.11-15.16.52:257][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.11-15.16.52:257][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2018.11.11-15.16.52:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2018.11.11-15.16.52:258][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:258][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:259][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:259][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:259][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2018.11.11-15.16.52:259][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2018.11.11-15.16.52:259][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:259][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:260][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:260][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:260][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2018.11.11-15.16.52:260][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2018.11.11-15.16.52:260][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:260][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:261][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:261][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:261][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2018.11.11-15.16.52:261][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2018.11.11-15.16.52:261][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:261][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.52:262][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2018.11.11-15.16.52:262][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2018.11.11-15.16.53:343][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.11-15.16.53:372][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.11-15.16.53:831][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2018.11.11-15.16.55:452][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.11-15.16.56:008][  0]LogOcInput: OculusInput pre-init called
-[2018.11.11-15.16.56:138][  0]LogEngine: Initializing Engine...
-[2018.11.11-15.16.56:141][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.11-15.16.56:142][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.11-15.16.56:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.11-15.16.56:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.11-15.16.56:143][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.11-15.16.56:415][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.11-15.16.56:457][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.11-15.16.56:747][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.11-15.16.56:892][  0]LogInit: FAudioDevice initialized.
-[2018.11.11-15.16.56:893][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.11-15.16.57:000][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.11-15.16.57:035][  0]LogInit: Texture streaming: Enabled
-[2018.11.11-15.16.57:122][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.11-15.16.57:122][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={3D7C1A3E-45B5-1954-639C-89A30116C68B}
-[2018.11.11-15.16.57:152][  0]LogInit: Transaction tracking system initialized
-[2018.11.11-15.16.57:281][  0]BlueprintLog: New page: 에디터 로드
-[2018.11.11-15.16.57:715][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.11.11-15.16.58:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.11-15.16.58:232][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.11-15.16.58:232][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.11-15.16.58:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.11-15.16.58:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.11-15.16.58:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.11-15.16.58:233][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.11-15.16.58:326][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/' took 0.03s
-[2018.11.11-15.16.58:747][  0]Cmd: MAP LOAD FILE="../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.11-15.16.58:748][  0]LightingResults: New page: 라이팅 빌드
-[2018.11.11-15.16.58:755][  0]MapCheck: New page: 맵 체크
-[2018.11.11-15.16.58:755][  0]LightingResults: New page: 라이팅 빌드
-[2018.11.11-15.16.59:110][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.11.11-15.16.59:119][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.11-15.16.59:150][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.11-15.16.59:266][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 116.089ms.
-[2018.11.11-15.16.59:267][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.519
-[2018.11.11-15.16.59:446][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.16.59:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.16.59:467][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.16.59:481][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.16.59:506][  0]LogCollectionManager: Loaded 0 collections in 0.005488 seconds
-[2018.11.11-15.16.59:575][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Saved/Collections/' took 0.01s
-[2018.11.11-15.16.59:575][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/Developers/kgmma/Collections/' took 0.02s
-[2018.11.11-15.16.59:575][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/Collections/' took 0.02s
-[2018.11.11-15.16.59:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.11-15.16.59:590][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2578 classes and 603 folders.
-[2018.11.11-15.16.59:612][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.11.11-15.16.59:717][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.11-15.16.59:740][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.11.11-15.16.59:764][  0]LogSlate: Took 0.000606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.11-15.16.59:773][  0]LogSlate: Took 0.005107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.11.11-15.16.59:779][  0]LogSlate: Took 0.004576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2018.11.11-15.16.59:780][  0]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.11-15.16.59:789][  0]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.11-15.16.59:948][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
-[2018.11.11-15.17.00:231][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.11.11-15.17.00:232][  0]LogLoad: (Engine Initialization) Total time: 17.33 seconds
-[2018.11.11-15.17.00:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.11-15.17.00:251][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.11.11-15.17.00:283][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.11-15.17.00:324][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.11-15.17.00:343][  1]LogAssetRegistry: Asset discovery search completed in 10.4728 seconds
-[2018.11.11-15.17.00:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2018.11.11-15.17.00:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000155 seconds (updated 0 objects)
-[2018.11.11-15.17.01:414][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.17.02:601][243]LogTemp: Repeating last play command: 선택된 뷰포트
-[2018.11.11-15.17.02:618][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.17.02:618][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.11-15.17.02:637][243]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 12. 오전 9:17:02)
-[2018.11.11-15.17.02:639][243]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.11.11-15.17.02:667][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027426s)
-[2018.11.11-15.17.02:668][243]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.11.11-15.17.02:669][243]LogPlayLevel: PIE: World Init took: (0.001329s)
-[2018.11.11-15.17.02:669][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029424s)
-[2018.11.11-15.17.02:878][243]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.11-15.17.02:933][243]LogInit: FAudioDevice initialized.
-[2018.11.11-15.17.02:996][243]LogLoad: Game class is 'Mode_C'
-[2018.11.11-15.17.03:001][243]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.12-00.17.03
-[2018.11.11-15.17.03:002][243]LogWorld: Bringing up level for play took: 0.002177
-[2018.11.11-15.17.03:023][243]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2018.11.11-15.17.03:039][243]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 10 classes and 0 folders.
-[2018.11.11-15.17.03:043][243]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: -0.149
-[2018.11.11-15.17.03:043][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.17.14:924][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.17.14:925][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.17.14:977][640]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.11-15.17.14:978][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.17.15:000][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.17.15:025][642]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.11.11-15.25.46:771][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.25.53:221][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.11-15.25.54:715][265]LogEditorViewport: Clicking on Actor (LMB): Hero_C (Hero)
-[2018.11.11-15.26.05:598][367]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
-[2018.11.11-15.26.07:242][544]Cmd: DELETE
-[2018.11.11-15.26.07:242][544]Cmd: ACTOR DELETE
-[2018.11.11-15.26.07:245][544]LogEditorActor: Deleted Actor: PlayerStart
-[2018.11.11-15.26.07:266][544]LogEditorActor: Deleted 1 Actors (0.023 secs)
-[2018.11.11-15.26.08:161][651]LogTemp: Repeating last play command: 선택된 뷰포트
-[2018.11.11-15.26.08:174][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.26.08:174][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.11-15.26.08:174][651]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 12. 오전 9:26:08)
-[2018.11.11-15.26.08:175][651]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.11.11-15.26.08:193][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017627s)
-[2018.11.11-15.26.08:194][651]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.11.11-15.26.08:194][651]LogPlayLevel: PIE: World Init took: (0.001592s)
-[2018.11.11-15.26.08:195][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019805s)
-[2018.11.11-15.26.08:419][651]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.11-15.26.08:479][651]LogInit: FAudioDevice initialized.
-[2018.11.11-15.26.08:479][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.11-15.26.08:530][651]LogLoad: Game class is 'Mode_C'
-[2018.11.11-15.26.08:533][651]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.12-00.26.08
-[2018.11.11-15.26.08:533][651]LogWorld: Bringing up level for play took: 0.002449
-[2018.11.11-15.26.08:552][651]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2018.11.11-15.26.08:554][651]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 1.363
-[2018.11.11-15.26.08:555][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.26.09:775][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.26.09:776][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.26.09:825][785]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.11-15.26.09:826][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.11.11-15.26.09:850][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.11-15.26.09:876][787]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.11.11-15.26.10:369][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.11.11-15.26.10:634][865]Cmd: TRANSACTION UNDO
-[2018.11.11-15.26.10:634][865]LogEditorTransaction: Undo 액터 클릭
-[2018.11.11-15.26.10:647][865]LogSlate: Took 0.000471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.11-15.26.11:292][935]Cmd: TRANSACTION UNDO
-[2018.11.11-15.26.11:292][935]LogEditorTransaction: Undo 액터 삭제
-[2018.11.11-15.26.14:105][248]LogEditorViewport: Clicking on Actor (LMB): Hero_C (Hero)
-[2018.11.11-15.26.15:050][330]Cmd: DELETE
-[2018.11.11-15.26.15:050][330]Cmd: ACTOR DELETE
-[2018.11.11-15.26.15:052][330]LogEditorActor: Deleted Actor: Hero_C
-[2018.11.11-15.26.15:122][330]LogEditorActor: Deleted 1 Actors (0.071 secs)
-[2018.11.11-15.26.17:978][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
-[2018.11.11-15.26.21:364][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.26.24:368][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.26.24:453][306]LogActorFactory: Actor Factory created Cube
-[2018.11.11-15.26.24:470][306]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
-[2018.11.11-15.26.24:561][306]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.11.11-15.26.24:561][306]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.11.11-15.26.24:561][306]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.11.11-15.26.24:561][306]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.11.11-15.26.24:562][306]LogSlate: Took 0.004063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.11.11-15.26.25:775][384]LogActorFactory: Actor Factory created Cube
-[2018.11.11-15.26.29:471][636]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.11.11-15.26.29:939][669]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.11.11-15.26.31:915][812]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.11.11-15.26.39:584][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.26.39:734][531]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hero.Hero
-[2018.11.11-15.26.40:313][531]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
-[2018.11.11-15.26.43:542][699]LogSlate: Window 'Hero' being destroyed
-[2018.11.11-15.26.43:640][699]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hero.Hero
-[2018.11.11-15.26.44:005][699]LogSlate: Took 0.000535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.11-15.26.44:546][731]LogSlate: Took 0.000533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.11-15.26.48:273][948]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Mannequin/Character/Mesh/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton
-[2018.11.11-15.26.48:317][948]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.11.11-15.26.48:530][948]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.11.11-15.26.48:537][948]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2018.11.11-15.26.48:568][948]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.11.11-15.26.48:945][948]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
-[2018.11.11-15.26.54:777][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.27.01:184][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.11-15.27.16:021][850]LogSlate: Window 'SK_Mannequin_Skeleton' being destroyed
-[2018.11.11-15.27.16:029][850]LogSlate: Window 'SK_Mannequin_Skeleton' being destroyed
-[2018.11.11-15.27.51:919][243]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/SideScrollerExampleMap_Auto1270093F74F08EA47B08E34B5165126BF.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
-[2018.11.11-15.27.51:927][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.245
-[2018.11.11-15.27.51:927][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
-[2018.11.11-15.33.40:781][591]Cmd: DELETE
-[2018.11.11-15.33.40:781][591]Cmd: ACTOR DELETE
-[2018.11.11-15.33.40:784][591]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.11-15.33.40:810][591]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2018.11.11-15.33.42:070][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.11-15.33.42:235][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.11-15.33.42:473][740]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/SideScrollerExampleMap28C434924B864D63911D8191A7839545.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2018.11.11-15.33.42:474][740]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap', retrying in .5s...
-[2018.11.11-15.33.42:977][740]LogFileManager: Warning: DeleteFile recovered during retry!
-[2018.11.11-15.33.43:520][740]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/SideScrollerExampleMap_BuiltDataD0880E1F415E3382282AA5A42FA40CB5.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
-[2018.11.11-15.33.44:471][791]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/SideScrollerExampleMapC882537A4B043A20556B9386A38B4819.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2018.11.11-15.33.44:892][791]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/SideScrollerExampleMap_BuiltDataD3BD0F2A4F1E549576618F913B0797DC.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
+[2018.11.12-14.52.04:496][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.12-14.52.04:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.12-14.52.04:624][  0]LogHAL: Display: Platform has ~ 16 GB [17107058688 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.12-14.52.04:646][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.12-14.52.04:647][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.12-14.52.04:678][  0]LogInit: Computer: DESKTOP-0D5PGMK
+[2018.11.12-14.52.04:678][  0]LogInit: User: kgmma
+[2018.11.12-14.52.04:678][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.12-14.52.04:679][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2018.11.12-14.52.04:679][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.12-14.52.04:679][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.12-14.52.04:679][  0]LogMemory: Process Physical Memory: 103.51 MB used, 103.51 MB peak
+[2018.11.12-14.52.04:680][  0]LogMemory: Process Virtual Memory: 86.01 MB used, 86.01 MB peak
+[2018.11.12-14.52.04:680][  0]LogMemory: Physical Memory: 8868.56 MB used,  7446.00 MB free, 16314.56 MB total
+[2018.11.12-14.52.04:680][  0]LogMemory: Virtual Memory: 4640.80 MB used,  7446.00 MB free, 134217728.00 MB total
+[2018.11.12-14.52.05:869][  0]LogInit: Using OS detected language (ko-KR).
+[2018.11.12-14.52.05:869][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.11.12-14.52.05:997][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.11.12-14.52.06:897][  0]LogStreaming: Display: Took  1.009s to InitEngineTextLocalization.
+[2018.11.12-14.52.06:905][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.12-14.52.07:914][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.12-14.52.07:915][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.12-14.52.13:934][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.12-14.52.13:934][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.12-14.52.14:146][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.12-14.52.14:146][  0]LogD3D11RHI:       6052/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.12-14.52.14:171][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.12-14.52.14:171][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.12-14.52.14:171][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.12-14.52.14:185][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.12-14.52.14:185][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.12-14.52.14:185][  0]LogWindows: EnumDisplayDevices:
+[2018.11.12-14.52.14:186][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.12-14.52.14:189][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.12-14.52.14:191][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.12-14.52.14:194][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.12-14.52.14:196][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.12-14.52.14:196][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.12-14.52.14:196][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
+[2018.11.12-14.52.14:196][  0]LogD3D11RHI:      Driver Date: 9-25-2018
+[2018.11.12-14.52.14:197][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.12-14.52.14:279][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.12-14.52.14:501][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.12-14.52.14:537][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../../../CliffHanger/CliffHanger/Intermediate/Shaders/WorkingDirectory/1120/).
+[2018.11.12-14.52.14:538][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kgmma/AppData/Local/Temp/UnrealShaderWorkingDir/DEE9D07546421D07F355A4AC08B97BDF/'.
+[2018.11.12-14.52.15:758][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.12-14.52.15:848][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.12-14.52.15:940][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.12-14.52.16:025][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.12-14.52.16:130][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.12-14.52.16:220][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.12-14.52.16:300][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.12-14.52.16:383][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.12-14.52.16:499][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:739][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.12-14.52.16:802][  0]LogTemp: Display: HTML5 SDK path "E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Extras/ThirdPartyNotUE/emsdk/Win64", does not exist!
+[2018.11.12-14.52.16:802][  0]LogTemp: Display: HTML5 SDK path "E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Extras/ThirdPartyNotUE/emsdk/Win64", does not exist!
+[2018.11.12-14.52.17:119][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.12-14.52.17:119][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.12-14.52.17:185][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.12-14.52.17:185][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.12-14.52.17:241][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.12-14.52.17:242][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.12-14.52.19:416][  0]LogXGEController: Cleaning working directory: C:/Users/kgmma/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.12-14.52.19:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.12-14.52.19:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.12-14.52.19:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.12-14.52.26:173][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.12-14.52.26:403][  0]LogDerivedDataCache: Loaded boot cache 0.23s 71MB C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.12-14.52.26:403][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../CliffHanger/CliffHanger/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../CliffHanger/CliffHanger/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.12-14.52.26:404][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2018.11.12-14.52.26:422][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kgmma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.12-14.52.26:423][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.12-14.52.26:423][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.12-14.52.26:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.12-14.52.26:495][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.12-14.52.26:574][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.12-14.52.29:112][  0]LogAssetRegistry: FAssetRegistry took 0.0772 seconds to start up
+[2018.11.12-14.52.31:045][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.12-14.52.34:929][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.12-14.52.34:929][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.12-14.52.34:929][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.12-14.52.34:929][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2018.11.12-14.52.34:929][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2018.11.12-14.52.37:069][  0]LogNetVersion: CliffHanger 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 205997986)
+[2018.11.12-14.52.51:909][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.374429 seconds
+[2018.11.12-14.52.52:013][  0]LogUObjectArray: 38381 objects as part of root set at end of initial load.
+[2018.11.12-14.52.52:013][  0]LogUObjectAllocator: 6683936 out of 0 bytes used by permanent object pool.
+[2018.11.12-14.52.52:013][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.12-14.53.19:251][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.11.12-14.53.19:252][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.11.12-14.53.19:253][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:262][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:263][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:264][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:266][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.11.12-14.53.19:266][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.11.12-14.53.19:266][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:274][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:274][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:275][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.11.12-14.53.19:276][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.11.12-14.53.19:276][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:276][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:277][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:278][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:278][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2018.11.12-14.53.19:280][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2018.11.12-14.53.19:280][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:281][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:281][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2018.11.12-14.53.19:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2018.11.12-14.53.19:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.11.12-14.53.19:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.11.12-14.53.19:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:282][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:282][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:283][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.11.12-14.53.19:284][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.11.12-14.53.19:284][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:284][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:285][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:286][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:287][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.11.12-14.53.19:287][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.11.12-14.53.19:289][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:289][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:290][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:290][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:291][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2018.11.12-14.53.19:291][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2018.11.12-14.53.19:291][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:292][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:293][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2018.11.12-14.53.19:293][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2018.11.12-14.53.19:345][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.11.12-14.53.19:346][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.11.12-14.53.19:346][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:347][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:348][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:348][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:348][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.11.12-14.53.19:349][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.11.12-14.53.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:350][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:350][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:351][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:355][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.11.12-14.53.19:356][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.11.12-14.53.19:358][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:359][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:359][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:360][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:365][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.11.12-14.53.19:366][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.11.12-14.53.19:367][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:368][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:369][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:370][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:370][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.11.12-14.53.19:371][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.11.12-14.53.19:371][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:371][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:371][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:372][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:373][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.11.12-14.53.19:373][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.11.12-14.53.19:373][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:374][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:374][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:375][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:375][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.11.12-14.53.19:375][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.11.12-14.53.19:375][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:375][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:376][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:377][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:378][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.11.12-14.53.19:378][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.11.12-14.53.19:378][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:378][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:379][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:379][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:379][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.11.12-14.53.19:380][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.11.12-14.53.19:380][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:381][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:382][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:382][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:383][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.11.12-14.53.19:384][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.11.12-14.53.19:385][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:387][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:387][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:388][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:389][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2018.11.12-14.53.19:389][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2018.11.12-14.53.19:390][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:391][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:392][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:393][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:393][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2018.11.12-14.53.19:393][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2018.11.12-14.53.19:393][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:394][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:394][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:394][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:395][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2018.11.12-14.53.19:395][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2018.11.12-14.53.19:396][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.11.12-14.53.19:398][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.11.12-14.53.19:398][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:399][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:399][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:399][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:399][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2018.11.12-14.53.19:400][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2018.11.12-14.53.19:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2018.11.12-14.53.19:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2018.11.12-14.53.19:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:407][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:408][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2018.11.12-14.53.19:408][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2018.11.12-14.53.19:409][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:411][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:413][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:414][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:415][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2018.11.12-14.53.19:424][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2018.11.12-14.53.19:427][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:427][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.19:428][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2018.11.12-14.53.19:437][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2018.11.12-14.53.37:732][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.12-14.53.38:176][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.12-14.53.41:128][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2018.11.12-14.53.46:770][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.12-14.53.47:764][  0]LogOcInput: OculusInput pre-init called
+[2018.11.12-14.53.48:568][  0]LogEngine: Initializing Engine...
+[2018.11.12-14.53.48:593][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.12-14.53.48:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.12-14.53.48:595][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.12-14.53.48:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.12-14.53.48:596][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.12-14.53.49:669][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.12-14.53.50:011][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.12-14.53.50:313][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-14.53.50:538][  0]LogInit: FAudioDevice initialized.
+[2018.11.12-14.53.50:538][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.12-14.53.50:635][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/kgmma/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.12-14.53.50:636][  0]LogInit: Texture streaming: Enabled
+[2018.11.12-14.53.50:994][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.12-14.53.50:995][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={AE57F8AA-411C-13D5-24F3-1EAD0018BA18}
+[2018.11.12-14.53.51:178][  0]LogInit: Transaction tracking system initialized
+[2018.11.12-14.53.53:510][  0]BlueprintLog: New page: 에디터 로드
+[2018.11.12-14.53.56:883][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.11.12-14.54.00:028][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.12-14.54.00:029][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.12-14.54.00:029][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.12-14.54.00:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.12-14.54.00:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.12-14.54.00:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.12-14.54.00:030][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.12-14.54.00:188][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/' took 0.04s
+[2018.11.12-14.54.10:428][  0]Cmd: MAP LOAD FILE="../../../../../../../../CliffHanger/CliffHanger/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.12-14.54.10:506][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.12-14.54.10:935][  0]MapCheck: New page: 맵 체크
+[2018.11.12-14.54.10:936][  0]LightingResults: New page: 라이팅 빌드
+[2018.11.12-14.54.14:965][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.11.12-14.54.15:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.12-14.54.15:334][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.12-14.54.15:435][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 100.241ms.
+[2018.11.12-14.54.15:435][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 5.051
+[2018.11.12-14.54.16:297][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-14.54.16:311][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-14.54.16:323][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-14.54.16:336][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-14.54.16:558][  0]LogCollectionManager: Loaded 0 collections in 0.006775 seconds
+[2018.11.12-14.54.16:721][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Saved/Collections/' took 0.03s
+[2018.11.12-14.54.16:721][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/Developers/kgmma/Collections/' took 0.02s
+[2018.11.12-14.54.16:721][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal/CliffHanger/CliffHanger/Content/Collections/' took 0.02s
+[2018.11.12-14.54.16:722][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.12-14.54.16:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0311 seconds. Added 2578 classes and 603 folders.
+[2018.11.12-14.54.16:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.12-14.54.19:970][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.12-14.54.20:128][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.12-14.54.20:423][  0]LogSlate: Took 0.013663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.12-14.54.20:500][  0]LogSlate: Took 0.062094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.11.12-14.54.20:555][  0]LogSlate: Took 0.054104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.11.12-14.54.20:568][  0]LogSlate: Took 0.013177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.12-14.54.20:606][  0]LogSlate: Took 0.016533 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.12-14.54.21:200][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2018.11.12-14.54.21:855][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.12-14.54.21:855][  0]LogLoad: (Engine Initialization) Total time: 293.10 seconds
+[2018.11.12-14.54.21:855][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.12-14.54.21:979][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.12-14.54.22:107][  0]LogSlate: Took 0.023056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.12-14.54.22:303][  1]LogAssetRegistry: Asset discovery search completed in 113.2439 seconds
+[2018.11.12-14.54.22:307][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2018.11.12-14.54.22:307][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000268 seconds (updated 0 objects)
+[2018.11.12-14.54.27:526][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-14.54.39:708][537]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.12-14.54.39:853][537]LogSlate: Took 0.010343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.12-14.54.58:883][542]Running E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Unreal/CliffHanger/CliffHanger/CliffHanger.uproject" -invalidatemakefilesonly
+[2018.11.12-14.55.04:154][542]Invalidating makefiles only in this run.
+[2018.11.12-14.55.07:706][542]Candidate modules for hot reload:
+[2018.11.12-14.55.07:706][542]  CliffHanger
+[2018.11.12-14.55.07:706][542]Launching UnrealBuildTool... [E:/Unreal/Engine/UnrealEngine/LocalBuilds/Engine/Windows/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CliffHanger,820 Win64 Development -TargetType=Editor -Project="../../../../../../../../CliffHanger/CliffHanger/CliffHanger.uproject" -canskiplink "E:/Unreal/CliffHanger/CliffHanger/CliffHanger.uproject" ]
+[2018.11.12-14.57.42:103][542]CompilerResultsLog: New page: 컴파일 - 2018. 11. 13. 오전 8:57:41
+[2018.11.12-14.57.42:103][542]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.12-14.57.42:104][542]CompilerResultsLog: Creating makefile for hot reloading CliffHangerEditor (no existing makefile)
+[2018.11.12-14.57.42:104][542]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.12-14.57.42:104][542]CompilerResultsLog: Using Visual Studio 2015 14.0 toolchain (C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.12-14.57.42:104][542]CompilerResultsLog: Parsing headers for CliffHangerEditor
+[2018.11.12-14.57.42:105][542]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal\CliffHanger\CliffHanger\CliffHanger.uproject" "E:\Unreal\CliffHanger\CliffHanger\Intermediate\Build\Win64\CliffHangerEditor\Development\CliffHangerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.12-14.57.42:105][542]CompilerResultsLog: Reflection code generated for CliffHangerEditor in 13.8745326 seconds
+[2018.11.12-14.57.42:105][542]CompilerResultsLog: Building 5 actions with 8 processes...
+[2018.11.12-14.57.42:105][542]CompilerResultsLog:   [1/5] CHHeroAnimInstance.cpp
+[2018.11.12-14.57.42:106][542]CompilerResultsLog:   [2/5] CliffHanger.init.gen.cpp
+[2018.11.12-14.57.42:106][542]CompilerResultsLog:   [3/5] CHHeroAnimInstance.gen.cpp
+[2018.11.12-14.57.42:106][542]CompilerResultsLog:   [4/5] UE4Editor-CliffHanger-820.lib
+[2018.11.12-14.57.42:107][542]CompilerResultsLog:      E:\Unreal\CliffHanger\CliffHanger\Intermediate\Build\Win64\UE4Editor\Development\CliffHanger\UE4Editor-CliffHanger-820.lib ???????? ?? E:\Unreal\CliffHanger\CliffHanger\Intermediate\Build\Win64\UE4Editor\Development\CliffHanger\UE4Editor-CliffHanger-820.exp ??u?? ??????? ??????.
+[2018.11.12-14.57.42:107][542]CompilerResultsLog:   [5/5] UE4Editor-CliffHanger-820.dll
+[2018.11.12-14.57.42:107][542]CompilerResultsLog:      E:\Unreal\CliffHanger\CliffHanger\Intermediate\Build\Win64\UE4Editor\Development\CliffHanger\UE4Editor-CliffHanger-820.suppressed.lib ???????? ?? E:\Unreal\CliffHanger\CliffHanger\Intermediate\Build\Win64\UE4Editor\Development\CliffHanger\UE4Editor-CliffHanger-820.suppressed.exp ??u?? ??????? ??????.
+[2018.11.12-14.57.42:107][542]CompilerResultsLog: Total build time: 153.71 seconds (Parallel executor: 131.10 seconds)
+[2018.11.12-14.57.42:108][542]LogMainFrame: MainFrame: Module compiling took 154.420 seconds
+[2018.11.12-14.57.42:242][542]LogClass: Could not find existing class CHHeroAnimInstance in package /Script/CliffHanger for HotReload, assuming new class
+[2018.11.12-14.57.42:250][542]LogContentBrowser: Native class hierarchy updated for 'CliffHanger' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2018.11.12-14.57.42:253][542]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.12-14.57.42:957][542]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2580 classes and 605 folders.
+[2018.11.12-14.57.43:003][542]Display: HotReload took 158.0s.
+[2018.11.12-14.57.43:006][542]Warning: HotReload operation took 158.0s.
+[2018.11.12-14.57.43:751][542]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2018.11.12-14.57.44:287][542]LogHotReload: New module detected: UE4Editor-CliffHanger-820.dll
+[2018.11.12-14.57.44:680][543]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.12-14.57.44:743][543]LogContentBrowser: Native class hierarchy updated for 'CliffHanger' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2018.11.12-14.57.44:745][543]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.12-14.57.44:785][543]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2580 classes and 605 folders.
+[2018.11.12-14.57.44:792][543]Display: HotReload took  0.1s.
+[2018.11.12-14.58.54:331][331]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.12-14.59.01:174][115]LogAssetEditorManager: Opening Asset editor for Class /Script/CliffHanger.CHHeroAnimInstance
+[2018.11.12-14.59.01:454][115]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal/CliffHanger/CliffHanger/Source/CliffHanger/CHHeroAnimInstance.h'
+[2018.11.12-14.59.01:509][115]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/Unreal/CliffHanger/CliffHanger/Source/CliffHanger/CHHeroAnimInstance.cpp'
+[2018.11.12-15.00.00:639][538]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.12-15.00.34:977][160]LogSlate: Window '부모 클래스 선택' being destroyed
+[2018.11.12-15.00.41:020][732]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.11.12-15.00.45:079][732]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.11.12-15.00.51:059][732]LogSlate: Window '메시지' being destroyed
+[2018.11.12-15.00.55:446][732]LogSlate: Window '애니메이션 블루프린트 생성' being destroyed
+[2018.11.12-15.01.04:596][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroAnimInstance" FILE="../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset" SILENT=true
+[2018.11.12-15.01.04:849][646]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/HeroAnimInstance8AB36DA044304208236B45BF03C24F8D.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset'
+[2018.11.12-15.01.06:659][788]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hero.Hero
+[2018.11.12-15.01.08:363][788]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.11.12-15.01.14:434][ 58]LogSlate: Window 'Hero' being destroyed
+[2018.11.12-15.01.14:845][ 58]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Hero.Hero
+[2018.11.12-15.01.16:176][ 77]LogSlate: Took 0.010150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.12-15.01.18:556][260]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.12-15.01.22:146][554]BlueprintLog: New page: Hero 컴파일
+[2018.11.12-15.01.23:075][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hero" FILE="../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/Hero.uasset" SILENT=true
+[2018.11.12-15.01.23:126][588]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/Hero8A15998D4662AE7EA94550877A0ECA4E.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/Hero.uasset'
+[2018.11.12-15.01.24:651][731]LogSlate: Window 'Hero' being destroyed
+[2018.11.12-15.01.24:658][731]LogSlate: Window 'Hero' being destroyed
+[2018.11.12-15.03.55:192][790]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Blueprints/HeroAnimInstance.HeroAnimInstance
+[2018.11.12-15.03.55:570][790]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.11.12-15.03.56:264][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-15.03.56:283][790]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0012 seconds. Added 1 classes and 0 folders.
+[2018.11.12-15.03.56:831][790]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-15.03.57:599][790]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.11.12-15.04.32:105][904]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-15.04.43:222][873]BlueprintLog: New page: HeroAnimInstance 컴파일
+[2018.11.12-15.04.43:893][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroAnimInstance" FILE="../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset" SILENT=true
+[2018.11.12-15.04.43:942][898]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/HeroAnimInstanceB1D81CA942E3661EE695308E51DADBC3.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset'
+[2018.11.12-15.04.48:324][158]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.04.48:331][158]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.04.49:260][233]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.12-15.04.49:318][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.49:355][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-15.04.49:427][233]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 13. 오전 9:04:49)
+[2018.11.12-15.04.49:431][233]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.11.12-15.04.49:518][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086769s)
+[2018.11.12-15.04.49:520][233]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.11.12-15.04.49:521][233]LogPlayLevel: PIE: World Init took: (0.002564s)
+[2018.11.12-15.04.49:521][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.090448s)
+[2018.11.12-15.04.49:771][233]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-15.04.49:830][233]LogInit: FAudioDevice initialized.
+[2018.11.12-15.04.49:966][233]LogLoad: Game class is 'Mode_C'
+[2018.11.12-15.04.49:971][233]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.13-00.04.49
+[2018.11.12-15.04.50:011][233]LogWorld: Bringing up level for play took: 0.042199
+[2018.11.12-15.04.50:105][233]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.11.12-15.04.50:134][233]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2018.11.12-15.04.50:144][233]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.867
+[2018.11.12-15.04.50:145][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.56:858][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.56:862][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.04.56:948][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-15.04.56:965][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.57:013][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.04.57:066][996]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.12-15.04.57:641][ 48]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.12-15.04.57:656][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.57:656][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-15.04.57:657][ 48]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 13. 오전 9:04:57)
+[2018.11.12-15.04.57:657][ 48]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.11.12-15.04.57:682][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024300s)
+[2018.11.12-15.04.57:683][ 48]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.11.12-15.04.57:683][ 48]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2018.11.12-15.04.57:683][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.026308s)
+[2018.11.12-15.04.57:930][ 48]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-15.04.57:990][ 48]LogInit: FAudioDevice initialized.
+[2018.11.12-15.04.58:039][ 48]LogLoad: Game class is 'Mode_C'
+[2018.11.12-15.04.58:043][ 48]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.13-00.04.58
+[2018.11.12-15.04.58:044][ 48]LogWorld: Bringing up level for play took: 0.002595
+[2018.11.12-15.04.58:069][ 48]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.11.12-15.04.58:072][ 48]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.796
+[2018.11.12-15.04.58:073][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.59:455][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.59:456][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.04.59:504][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-15.04.59:504][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.04.59:529][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.04.59:563][196]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.12-15.05.05:010][605]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Blueprints/HeroAnimInstance.HeroAnimInstance
+[2018.11.12-15.05.05:024][605]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-15.05.05:278][605]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-15.05.05:636][605]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-15.07.56:312][213]BlueprintLog: New page: HeroAnimInstance 컴파일
+[2018.11.12-15.08.06:441][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.08.13:073][480]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.12-15.08.13:099][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.13:099][480]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.11.12-15.08.13:102][480]LogPlayLevel: [PlayLevel] Compiling HeroAnimInstance before play...
+[2018.11.12-15.08.13:238][480]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2018.11.12-15.08.13:238][480]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 13. 오전 9:08:13)
+[2018.11.12-15.08.13:239][480]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.11.12-15.08.13:257][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018236s)
+[2018.11.12-15.08.13:258][480]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.11.12-15.08.13:259][480]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2018.11.12-15.08.13:259][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019818s)
+[2018.11.12-15.08.13:467][480]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-15.08.13:519][480]LogInit: FAudioDevice initialized.
+[2018.11.12-15.08.13:570][480]LogLoad: Game class is 'Mode_C'
+[2018.11.12-15.08.13:573][480]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.13-00.08.13
+[2018.11.12-15.08.13:573][480]LogWorld: Bringing up level for play took: 0.002163
+[2018.11.12-15.08.13:593][480]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.11.12-15.08.13:596][480]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.319
+[2018.11.12-15.08.13:596][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.16:014][623]Cmd: SELECT NONE
+[2018.11.12-15.08.16:984][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.16:985][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.08.17:036][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-15.08.17:036][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.17:067][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.08.17:094][678]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.12-15.08.18:059][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroAnimInstance" FILE="../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset" SILENT=true
+[2018.11.12-15.08.18:097][738]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/HeroAnimInstanceDD12C84D47DD949FFE19109AB75A46B5.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset'
+[2018.11.12-15.08.27:135][539]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.08.27:145][539]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.08.27:804][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.12-15.08.29:372][741]LogTemp: Repeating last play command: 선택된 뷰포트
+[2018.11.12-15.08.29:414][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.29:415][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.12-15.08.29:415][741]PIE: New page: PIE 세션: SideScrollerExampleMap (2018. 11. 13. 오전 9:08:29)
+[2018.11.12-15.08.29:416][741]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.11.12-15.08.29:435][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019240s)
+[2018.11.12-15.08.29:437][741]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.11.12-15.08.29:437][741]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2018.11.12-15.08.29:437][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.021335s)
+[2018.11.12-15.08.29:653][741]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.12-15.08.29:707][741]LogInit: FAudioDevice initialized.
+[2018.11.12-15.08.29:707][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-15.08.29:754][741]LogLoad: Game class is 'Mode_C'
+[2018.11.12-15.08.29:756][741]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.11.13-00.08.29
+[2018.11.12-15.08.29:757][741]LogWorld: Bringing up level for play took: 0.001196
+[2018.11.12-15.08.29:775][741]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.11.12-15.08.29:777][741]PIE: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.5
+[2018.11.12-15.08.29:777][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.33:769][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.33:769][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.08.33:821][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.12-15.08.33:822][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.11.12-15.08.33:867][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.12-15.08.33:885][200]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.12-15.13.45:321][358]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Blueprints/HeroAnimInstance.HeroAnimInstance
+[2018.11.12-15.13.45:338][358]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.12-15.13.45:628][358]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.12-15.13.46:006][358]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.12-15.17.32:050][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.028
+[2018.11.12-15.17.32:065][333]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HeroAnimInstance] ([1] browsable assets)...
+[2018.11.12-15.17.32:083][333]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/HeroAnimInstance.HeroAnimInstance]
+[2018.11.12-15.17.32:083][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroAnimInstance]
+[2018.11.12-15.17.32:124][333]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/HeroAnimInstance_Auto1E8BAC5A942E66FC9F6B9048989DF0183.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Saved/Autosaves/Game/Blueprints/HeroAnimInstance_Auto1.uasset'
+[2018.11.12-15.17.32:126][333]LogFileHelpers: Auto-saving content packages took 0.075
+[2018.11.12-15.20.22:057][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.20.59:304][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.12-15.21.12:725][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.21.48:959][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.21.59:432][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.22.43:879][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.12-15.23.03:193][657]BlueprintLog: New page: HeroAnimInstance 컴파일
+[2018.11.12-15.23.03:840][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroAnimInstance" FILE="../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset" SILENT=true
+[2018.11.12-15.23.03:887][676]LogSavePackage: Moving '../../../../../../../../CliffHanger/CliffHanger/Saved/HeroAnimInstanceDBEF4E6A441F19BC233E3E8836616612.tmp' to '../../../../../../../../CliffHanger/CliffHanger/Content/Blueprints/HeroAnimInstance.uasset'
+[2018.11.12-15.23.04:850][739]Cmd: SELECT NONE
+[2018.11.12-15.23.05:654][794]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.23.05:664][794]LogSlate: Window 'HeroAnimInstance' being destroyed
+[2018.11.12-15.23.06:521][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.12-15.23.06:994][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
